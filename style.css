@@ -259,7 +259,7 @@
   }
 
   .menu-icon {
-    margin-left: 180px;
+    margin-left: 200px;
     font-size: 22px;
   }
 
@@ -273,19 +273,22 @@
   }
 
   .section1 {
-    height: 600px;
+    padding: 50px 20px;
+    align-items: center;
+    text-align: center;
   }
 
   .txt-container {
-    margin-left: 30px;
+    margin-left: 60px;
+    text-align: left;
   }
   
   .txt-container h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .txt-container p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .btn-orcamento {
@@ -299,16 +302,15 @@
   }
 
   .servicos-container {
-    margin: 0;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .servicos-container h1 {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
 
   .servicos-container p {
-    font-size: 0.9rem;
+    font-size: 13px;
   }
 
   .cards-container {
