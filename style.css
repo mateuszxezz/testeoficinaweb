@@ -5,7 +5,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-
 .header {
   position: fixed;
   width: 100%;
@@ -84,9 +83,7 @@
 }
 
 .menu-icon {
-  font-size: 32px;
   display: none;
-  cursor: pointer;
 }
 
 #menu-toggle {
@@ -254,18 +251,21 @@
 
 
 @media (max-width: 900px) {
+  .header {
+    justify-content: space-between;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+  }
+
   .menu-icon {
-    margin-left: 145px;
+    margin-left: 180px;
+    font-size: 22px;
   }
 
   .logo img {
-    width: 90px;
-    height: 70px;
-  }
-  
-  .header {
-    justify-content: space-betwee;
-    padding: 10px 40px;
+    width: 80px;
+    height: 60px;
   }
 
   .btn-contato {
@@ -277,15 +277,15 @@
   }
 
   .txt-container {
-    margin-left: 80px;
+    margin-left: 30px;
   }
   
   .txt-container h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .txt-container p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .btn-orcamento {
