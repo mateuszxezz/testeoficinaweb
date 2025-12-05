@@ -204,7 +204,7 @@
 
 .footer-content p {
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.75;
 }
 
@@ -260,7 +260,7 @@
 
   .menu-icon {
     margin-left: 200px;
-    font-size: 22px;
+    font-size: 28px;
   }
 
   .logo img {
@@ -303,20 +303,21 @@
 
   .servicos-container {
     max-width: 100%;
+    margin-left: 0;
   }
 
   .servicos-container h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .servicos-container p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .cards-container {
-    grid-template-columns: 1fr; /* VIRA COLUNA */
+    grid-template-columns: 1fr;
     gap: 30px;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .card {
